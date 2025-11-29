@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Amazon/img/amazon_logo.png">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+</head>
+
+<body>
+    <div class="root">
+        <!-- NavBar of the Amazon  -->
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-location border">
+                <p style="font-weight: 200;" id="deliver"> &nbsp; &nbsp; Deliver to</p>
+                <p style="font-weight: 600;" id="India"><i class="ri-map-pin-2-line"></i> India</p>
+            </div>
+
+            <div class="nav-searchbar">
+                <select name="product" id="product" class="select">
+                    <option> All </option>
+                    <option value="mobiles">mobiles</option>
+                    <option value="clothes">clothes</option>
+                    <option value="Sarees">Sarees</option>
+                    <option value="Dress">Dress</option>
+                    <option value="Grossary">Grossary</option>
+                    <option value="headphones">headohones</option>
+                    <option value="radio">radio</option>
+                    <option value="Books">Books</option>
+                    <option value="mouse">mouse</option>
+                    <option value="laptop">laptop</option>
+                </select>
+                <input type="text" placeholder="Search on amazon" class="search-bar" >
+                <div class="search-icon"><i class="ri-search-line" class="search-icon"></i></div>
+            </div>
+
+            <div class="log-in border">
+                <p class="faint_para">Hello, Sign in</p>
+                <p>Accounts & lists</p>
+            </div>
+
+            <div class="return-order border">
+                <p class="faint_para">Returns</p>
+                <p>Order & Returns</p>
+            </div>
+
+            <div class="cart border" style="display: flex; flex-direction: row;">
+                <i class="ri-shopping-cart-2-line" style="font-size: 2rem;"></i>
+                <p style="margin-top: 15px;">Cart</p>
+            </div>
+
+        </div>
+        <!-- End of navbar -->
+
+        <div class="semi-navbar">
+            <div class="semi-navbar-comp">
+                <div><i class="ri-menu-line"></i> All</div>
+                <div>MX player</div>
+                <div>Sell</div>
+                <div>Bestsellers</div>
+                <div>Today's Deals</div>
+                <div>Mobiles</div>
+                <div>Prime</div>
+                <div>Customers Service</div>
+                <div>Fashion</div>
+                <div>New Release</div>
+            </div>
+            <div class="semi-navbar-advertise">
+                <p class="faint_para">Great freedom Festival</p>
+                <p>Live Now</p>
+
+            </div>
+            <i class="ri-arrow-right-s-line" id="forward-arrow"></i>
+        </div>
+
+        <div class="hero_section">
+            <p class="hero_para">You are on amazon.com. Now you can shop anything you want . With millions of prodcut
+                via fast delivery. Click here<a href="#"> amazon.in</a></p>
+        </div>
+
+        <div class="cardscontainer">
+            <!-- card - 1 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Home Coushans</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box1_image.jpg) ;"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+
+            </div>
+            <!-- card 2 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Personnel Health & Care</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box2_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Home Appliances</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box3_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Electronics</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box4_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 2nd row  -->
+
+        <div class="cardscontainer" id="lastcontainer">
+            <!-- card - 1 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Beauty Picks</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box5_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+
+            </div>
+            <!-- card 2 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Dogs and cats</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box6_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Play Games Toys </h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box7_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="cards">
+                <div class="card-content">
+                    <h2>Latest fashions</h2>
+                    <div class="card-img" style="background-image: url(/Amazon/img/box8_image.jpg);"></div>
+                    <a href="#" style="color: rgb(75, 75, 244); text-decoration: none;">Shop now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="recommendations">
+            <h3 style="font-size: 1.4rem;">See Personalized Recommendations</h3>
+            <div>
+                <button
+                    style="padding: 10px 80px; background-color: #ffed94; border-radius: 3rem; font-size: 17px; margin-top: 10px;">Sign
+                    in</button>
+            </div>
+
+            <p><span>new Customer ?</span><a href="#">Start here</a></p>
+        </div>
+
+
+        <!-- back to top -->
+        <div class="return">
+            <div>
+                <p>Back to top</p>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <div class="footer">
+            <div class="more-info">
+                <h4>Get to know us</h4>
+                <div class="footer-links">
+                    <a href="#">About Amazon</a>
+                    <a href="#">Carrers</a>
+                    <a href="#">Press Release</a>
+                    <a href="#">Amazon Science</a>
+                </div>
+            </div>
+            <div class="more-info">
+                <h4>Connect with us</h4>
+                <div class="footer-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="more-info">
+                <h4>Make money with us </h4>
+                <div class="footer-links">
+                    <a href="#">Sell on amazon</a>
+                    <a href="#">Sell under Amazon Accelerator</a>
+                    <a href="#">Protect and build your brand </a>
+                    <a href="#">Get Socialize and promot your Brand</a>
+                    <a href="#">Supply to Amazon</a>
+                    <a href="#">Create an Affidivate</a>
+                    <a href="#">Fulfilment by amazon</a>
+                    <a href="#">Product deliver by amazon</a>
+                    <a href="#">Advertise your product</a>
+                    <a href="#">Payment on amazon</a>
+                </div>
+            </div>
+            <div class="more-info">
+                <h4>Let us help you </h4>
+                <div class="footer-links">
+                    <a href="#">Create your account</a>
+                    <a href="#">Return center</a>
+                    <a href="#">Recall product safety and alerts</a>
+                    <a href="#">100% purchase protection</a>
+                    <a href="#">Amazon App Download</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-logos">
+            <div class="footer-amazonlogo"></div>
+            <div id="footerbtn-container">
+                <button
+                    style="height: 2rem; background-color: inherit; border: 1px solid white; width: 8rem; color: white; border-radius:3px;">
+                    <i class="ri-global-line" style="margin-right: 10px; font-size: 1.2rem;"></i>English</button>
+                <button
+                    style="height: 2rem; background-color: inherit; border: 1px solid white; width: 8rem; color: white; border-radius:3px; font-size: 1.2rem;">India</button>
+            </div>
+        </div>
+
+
+        <!-- 3rd part of footer -->
+        <div class="lastcontainer-of-footer" style="font-size: 0.8rem;">
+            <div class="footerbox">
+                <div class="innerboxes">
+                    <p>AbeBooks</p>
+                    <p class="faint_para">Books , art & <br>collectibles</p>
+                </div>
+                <div class="innerboxes">
+                    <p>Shopbop</p>
+                    <p class="faint_para">Designer
+                        <br>
+                        Fashion Brands
+                    </p>
+                </div>
+            </div>
+            <div class="footerbox">
+                <div class="innerboxes">
+                    <p>Amazon Webservices</p>
+                    <p class="faint_para">Scalable Cloud <br>Computing Services</p>
+                </div>
+                <div class="innerboxes">
+                    <p>Amazon Business</p>
+                    <p class="faint_para">Evrything For <br> Your Bussiness</p>
+                </div>
+            </div>
+            <div class="footerbox">
+                <div class="innerboxes">
+                    <p>Audible</p>
+                    <p class="faint_para">Download <br>Audible Books</p>
+                </div>
+                <div class="innerboxes">
+                    <p>Prime Now</p>
+                    <p class="faint_para">2-Hours Delivery <br>on every items</p>
+                </div>
+            </div>
+            <div class="footerbox">
+                <div class="innerboxes">
+                    <p>IMDB</p>
+                    <p class="faint_para">Movies, TV & <br> celebrities </p>
+                </div>
+                <div class="innerboxes">
+                    <p>Amazon Prime Music</p>
+                    <p class="faint_para">100 millions songs <br>ad-free</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <script src="app.js"></script> -->
+    </div>
+</body>
+
+</html>
